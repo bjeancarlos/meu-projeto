@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(187, 240, 127);
+  }
+   h1 {
+    text-align: center;
+  }
+  label {
+    display: block;
+    text-align: center;
+  }
+  
+  input[type="number"],
+  button {
+    margin: 5px 0;
+  }
+  
+  #resultado {
+    text-align: center;
+    margin-top: 20px;
+  }
